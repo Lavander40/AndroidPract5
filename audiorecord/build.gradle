@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'ru.mirea.astaevka.lesson5'
+    namespace 'ru.mirea.astaevka.audiorecord'
     compileSdk 33
 
     defaultConfig {
-        applicationId "ru.mirea.astaevka.lesson5"
+        applicationId "ru.mirea.astaevka.audiorecord"
         minSdk 26
         targetSdk 33
         versionCode 1
@@ -25,9 +25,6 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
-    }
-    buildFeatures {
-        viewBinding true
     }
 }
 

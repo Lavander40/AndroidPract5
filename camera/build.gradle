@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'ru.mirea.astaevka.lesson5'
+    namespace 'ru.mirea.astaevka.camera'
     compileSdk 33
 
     defaultConfig {
-        applicationId "ru.mirea.astaevka.lesson5"
+        applicationId "ru.mirea.astaevka.camera"
         minSdk 26
         targetSdk 33
         versionCode 1
